@@ -1,0 +1,28 @@
+html {
+    background-color: gray;
+}
+
+.google-link {
+    color: green;
+}
+
+.linkGroup-link {
+    color: red;
+}
+
+#second-div p:nth-of-type(even) {
+    color: blue;
+}
+
+#second-div p:nth-of-type(odd) {
+    color: red;
+}
+
+.new::after {
+    content: " NEW!";
+    color: rgb(255, 255, 0);
+}
+
+.hover-italic:hover {
+    font-style: italic;
+}
