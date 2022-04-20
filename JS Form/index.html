@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2 - Website Building</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        #login-container {
+            width: 460px;
+            margin: 0 auto;
+        }
+
+        form label,
+        form input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        form input {
+            padding: 8px;
+        }
+
+        form label {
+            font-weight: bold;
+        }
+
+        form div {
+            margin: 16px 0px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="login-container">
+
+        <form>
+            <div>
+                <label id="username-label" for="username">Username:</label>
+                <input id="username" type="text" onchange="CheckUser()">
+
+                <span id="user-checkmark" style="position: absolute;
+                margin: 2px 0 0 -25px;
+                color: #6ac16a;
+                font-size: 20px; opacity: 0;">✔</span>
+                <span id="user-xmark" style="position: absolute;
+                margin: 6px 0 0 -28px; opacity: 0;">❌</span>
+            </div>
+
+            <div>
+                <label id="password-label" for="password">Password:</label>
+                <input id="password" type="password" onchange="CheckPassword()">
+                
+                <span id="password-checkmark" style="position: absolute;
+                margin: 2px 0 0 -25px;
+                color: #6ac16a;
+                font-size: 20px; opacity: 0;">✔</span>
+                <span id="password-xmark" style="position: absolute;
+                margin: 6px 0 0 -28px; opacity: 0;">❌</span>
+            </div>
+
+            <input type="button" id="submit" value="Login" onclick="validate()">
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
