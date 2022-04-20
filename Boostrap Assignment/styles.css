@@ -1,0 +1,110 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-brand {
+    font-size: 36px;
+}
+
+.navbar {
+    height: 100px;
+    margin-left: 6.5%;
+}
+
+.navbar a {
+    color: rgb(37, 37, 37);
+}
+
+.navbar a:hover {
+    color: rgb(120, 0, 150);
+}
+
+.banner-text {
+    position: absolute;
+    background: #00b176;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+    padding: 10px 25px;
+    margin: 10% 0 0 20%;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.icon-nav {
+    margin-top: 80px;
+}
+
+.icon-nav div ul .nav-item {
+    width: 100%;
+    text-align: center;
+}
+
+.icon-text {
+    text-align: center;
+}
+
+.recent-work {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.recent-work-header {
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    margin: -170px 0px 0px -775px;
+    text-align: initial;
+    width: 1520px;
+    border-bottom: 1px solid grey;
+}
+
+.recent-work-img {
+    height: 80%;
+    width: 80%;
+}
+
+.recent-work-text {
+    width: 200px;
+    text-align: initial;
+    margin: 5px 0px 0px 40px;
+    font-weight: bold;
+}
+
+.recent-work-subtext {
+    width: 150px;
+    text-align: initial;
+    margin: 5px 0px 0px 40px;
+}
+
+.page-footer {
+    margin-top: 300px;
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+
+.footer-list-1 li {
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+.footer-list-2 li {
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+.footer-list-1,
+.footer-list-2 {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+@media only screen and (max-width: 1000px) {}
